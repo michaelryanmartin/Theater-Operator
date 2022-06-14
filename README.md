@@ -1,11 +1,11 @@
 # Theater-Operator
 
 ## Deskripsi Program
-Program yang menunjukan sebuah studio virtual dimana orang dapat mengantri untuk membeli tiketnya. Terdapat 5 studio dan 5 film dengan jadwal tayang yang berbeda
+A program that shows a virtual studio where people can queue up to buy tickets. There are 5 studios and 5 films with different showtimes
 
-Berikut merupakan tabel jadwal tayang film dan studionya
+Here are the timetable for the film and the studio according to the time
 
-| Jam | Studio A  | Studio B  | Studio C  | Studio D  | Studio E  |
+| Time | Studio A  | Studio B  | Studio C  | Studio D  | Studio E  |
 |:---:|-----------|:---------:|-----------|:---------:|-----------|
 | 10-12 | Film A  | Film B  | Film C  | Film D  | Film E |
 | 12-14 | Film B  | Film C  | Film D  | Film E  | Film A |
@@ -13,11 +13,11 @@ Berikut merupakan tabel jadwal tayang film dan studionya
 | 16-18 | Film D  | Film E  | Film A  | Film B  | Film C |
 | 18-20 | Film E  | Film A  | Film B  | Film C  | Film D |
 
-* Setiap Studio memiliki kapasitas tempat duduk yang fixed dan bisa berbeda antara satu Studio dengan Studio yang lain.
-* Setiap Studio memiliki jadwal tayang film yang bisa berbeda-beda. Jadwal tersebut ditentukan saat ada film baru yang akan ditayangkan.
-* Sebuah film bisa ditayangkan di satu atau lebih Studio.
-* Pada gedung bioskop tersebut memiliki sejumlah loket penjualan tiket yang setiap loket tersebut bisa dalam kondisi buka atau tutup tergantung situasi.
-* Setiap loket yang dibuka akan memiliki antrian pembeli tiket masing-masing.
-* Pembeli yang datang bisa memilih antrian mana yang dia akan gunakan.
-* Di setiap loket penjualan tiket, pembeli dapat memilih judul film yang akan ditonton, di Studio mana, jam berapa, dan banyaknya tiket yang dibeli.
-* Pembeli hanya bisa membeli tiket jika tersedia tempat duduk di Studio dan jadwal yang dipilih.
+* Each Studio has a fixed seating capacity and may differ from one Studio to another.
+* Each Studio has a movie showtime that may vary. The schedule is determined when there is a new film to be shown.
+* A film can be shown in one or more Studios.
+* The cinema building has a number of ticket sales counters, each of which can be open or closed depending on the situation.
+* Each counter that is opened will have its own queue of ticket buyers.
+* Buyers who come can choose which queue he will use.
+* At each ticket counter, buyers can choose the title of the film to be watched, in which studio, at what time, and the number of tickets purchased.
+* Buyers can only buy tickets if seats are available in the Studio and the schedule selected.
