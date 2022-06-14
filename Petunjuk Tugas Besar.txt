@@ -1,0 +1,54 @@
+Petunjuk Tugas Besar:
+Buatlah program (dengan memilih dan menerapkan berbagai struktur data dan ADT yang sudah pernah dibahas di kuliah) untuk men-simulasikan penjualan/pembelian tiket di suatu gedung bioskop.
+Berikut adalah beberapa karakteristik dari gedung bioskop yang perlu diperhatikan:
+
+1. Gedung bioskop memiliki sejumlah Studio (nilainya antara 3 – 5)
+2. Setiap Studio memiliki kapasitas tempat duduk yang fixed dan bisa berbeda antara satu Studio dengan Studio yang lain.
+3. Setiap Studio memiliki jadwal tayang film yang bisa berbeda-beda. Jadwal tersebut ditentukan saat ada film baru yang akan ditayangkan.
+4. Sebuah film bisa ditayangkan di satu atau lebih Studio.
+5. Sebuah film jika ditayangkan di sebuah Studio akan dimulai dari tanggal tertentu sampai dengan tanggal tertentu juga.
+6. Tanggal tayang awal dan tanggal akhir suatu film ini bisa berbeda antara Studio yang satu dengan Studio yang lain bila film tersebut ditayangkan di lebih dari satu Studio.
+7. Pada gedung bioskop tersebut memiliki sejumlah loket penjualan tiket yang setiap loket tersebut bisa dalam kondisi buka atau tutup tergantung situasi.
+8. Setiap loket yang dibuka akan memiliki antrian pembeli tiket masing-masing.
+9. Pembeli yang datang bisa memilih antrian mana yang dia akan gunakan.
+10. Di setiap loket penjualan tiket, pembeli dapat memilih judul film yang akan ditonton, di Studio mana, jam berapa, dan banyaknya tiket yang dibeli.
+11. Pembeli hanya bisa membeli tiket jika tersedia tempat duduk di Studio dan jadwal yang dipilih.
+
+Contoh kasus:
+
+1. Sebuah gedung bioskop memiliki 3 buah Studio yang diberi nama Studio 1, Studio 2, dan Studio 3.
+2. Studio 1 punya kapasistas 100 kursi, Studio 2 dan Studio3 punya kapasistas 50 kursi.
+3. Film A ditayangkan di Studio 1 dan Studio 2.
+4. Jadwal tayang Film A di Studio 1 dari tanggal 5 Agustus 2021 – 15 Agusttus 2021 setiap jam 13, 16, 19.
+5. Jadwal tayang Film A di Studio 2 dati tanggal 5 Agustus 2021 – 20 Agustus 2021 setiap jam 12, 15, 18, dan 21
+6. Jadwal tayang Film B di Studio 3 dari tanggal 3 Agustus 2021 – 10 Agustus 2021 setiap jam 13, 15, 17, 19.
+7. Gedung bioskop ini memiliki 2 buah loket penjualan tiket.
+8. Pembeli yang datang bisa memilih antrian mana yang akan dia gunakan.
+9. Pada saat di depan loket pembeli dapat memilih akan membeli tiket Film A di Studio 1 tanggal 10 Agustus 2021 jam 16 sebanyak 5 buah.
+
+Catatan:
+
+Studio dalam bentuk list dengan jadwal tayang dan film yang berbeda beda.
+Tempat duduk studio bersifat matriks dengan 0 sebagai tanda kosong dan 1 sebagai tanda reserved
+Loket penjualan bisa buka atau tutup tergantung banyak orang mengantri
+tiap loket merupakan 1 queue
+pembeli bisa enqueue di queue mana saja
+saat dequeue pembeli harus memilih studio mana jam berapa serta jumlah tempat duduk
+studio beserta keterangan berbentuk array statis
+tempat duduk berupa integer dengan maksimal tertentu
+loket bersifat queue dengan dequeue yang bersifat didepan loket
+
+Menu
+1.   Tambah antrian
+1.1. Pilih antrian
+1.2. Back
+
+2.   Loket
+2.1. Pilih film, studio, jam, jumlah
+2.2. Back
+
+3.   Cek antrian
+
+4.   Cek jadwal tayang
+
+5.   Exit
